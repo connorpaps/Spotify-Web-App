@@ -1,0 +1,20 @@
+<div>
+    <h1>About Me</h1>
+    <h2>Name: Connor P<br/>
+        Website Created: August 13th, 2021<br/>
+        For: Seneca College WEB422 - A6
+    </h2>
+    <br/>
+    <p>This website was created using angular and populated with music data 
+        from the Spotify API containing information about various artists and albums.<br/>
+        It uses JWT and Passport to register and login users, with route gaurds and
+        authentication services using local storage tokens to authorize user access to the website.<br/>
+        The user login information is stored in a separate MongoDB database collection.
+    </p>
+    <br/>
+    <a [routerLink]="['/newReleases']">
+        <button mat-raised-button>
+            Return to New Releases
+        </button>
+    </a>
+</div>
